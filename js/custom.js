@@ -208,3 +208,33 @@ function myFunction() {
 //     }
 
 // });
+
+$(function () {
+    $("#chkPassport").click(function () {
+        if ($(this).is(":checked")) {
+            $("#dvPassport").show();
+            $("#AddPassport").hide();
+        } else {
+            $("#dvPassport").hide();
+            $("#AddPassport").show();
+        }
+    });
+});
+$(function () {
+    $("#chkPassport1").click(function () {
+        if ($(this).is(":checked")) {
+            $("#dvPassport1").show();
+            $("#AddPassport1").hide();
+        } else {
+            $("#dvPassport1").hide();
+            $("#AddPassport1").show();
+        }
+    });
+});
+$(document).ready(function(){
+    $('.datepicker').datepicker();
+  });
+       
+
+
+

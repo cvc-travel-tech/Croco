@@ -34,6 +34,7 @@
  h1, h2, h3, h4, h5, th {
      font-family: 'Quicksand', sans-serif;
      font-weight: 700;
+     margin-bottom: 20px;
 }
  .link-btn {
      text-transform: uppercase;
@@ -4999,6 +5000,11 @@
      font-size: 42px;
      font-weight: 600;
 }
+.tr-regi-form h3 span {
+    color: #82af27;
+    font-size: 24px;
+    font-weight: 600;
+}
  .tr-regi-form form {
      position: relative;
      padding: 20px;
@@ -5006,6 +5012,10 @@
  .tr-regi-form p {
      font-size: 18px;
      margin-bottom: 0px;
+}
+.tr-regi-form p:last-child {
+    font-size: 18px;
+    margin-bottom: 30px;
 }
  .tr-regi-form p a {
 }
@@ -5091,8 +5101,10 @@
  .v2-search-form label {
      color: #727070;
      font-weight: 600;
-     top: 14px;
+     top: -21px;
      font-size: 14px;
+     margin-right: 224px;
+     margin-bottom: 0;
 }
  .v2-search-form input {
      background: #fff;
@@ -8093,7 +8105,11 @@
 .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"], .radio input[type="radio"], .radio-inline input[type="radio"] {
 	position: absolute;
 	margin-top: 9px;
-	margin-left: -20px;
+    margin-left: -20px;
+    
+}
+.checkbox input[type="checkbox"] {
+    margin-left: 100px;
 }
 
 .form-control option:hover, .form-control option:checked  {
