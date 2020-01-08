@@ -10154,5 +10154,9 @@ input {
     background-color: white;
     padding: 20px;
     margin-top: 100px;
-    box-shadow: 5px 10px #f5f5f5;
+    box-shadow: 3px 4px 21px #f5f5f5;
+}
+
+.posts img {
+    min-height: 600px;
 }
