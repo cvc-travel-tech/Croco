@@ -273,12 +273,13 @@ li {
 }
 
 .spe-title p {
-    margin-bottom: 0px;
+    margin-bottom: 39px;
     font-size: 20px;
     font-weight: 400;
     padding-top: 12px;
     color: #888;
     font-family: 'Quicksand', sans-serif;
+    line-height: 1.5;
 }
 
 .spe-title-1 {}
@@ -2151,10 +2152,11 @@ footer ul li a {
     background-size: cover;
 }
 
-.inner_banner_5 {
+
+/* .inner_banner_5 {
     background: url('../images/Philae-Temple-Egypt-Tours-portal.jpg') no-repeat center center;
     background-size: cover;
-}
+} */
 
 .inner_banner div {
     position: relative;
@@ -2944,7 +2946,7 @@ footer ul li a {
 
 .tourb2-ab-p1-left h3 {
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color: #253d52;
 }
 
@@ -2976,7 +2978,7 @@ footer ul li a {
 
 .tourb2-ab-p1-right img {
     width: 100%;
-    min-height: 500px;
+    min-height: 550px;
 }
 
 .tourb2-ab-p-3 {
@@ -5248,14 +5250,13 @@ textarea {
 }
 
 .tourz-hom-ser ul li a {
-    background-color: rgb(241, 241, 241);
-    width: 200px;
+    background-color: rgb(253, 255, 255);
+    width: 150px;
     height: 110px;
     display: block;
     padding: 18px 2px 10px 2px;
     text-align: center;
     color: #000;
-    margin-top: -17px;
     border-radius: 5px;
     font-family: 'Arimo', sans-serif;
     /* position: relative;
@@ -5989,17 +5990,11 @@ textarea {
     margin-top: 0px;
     font-size: 42px;
     margin-bottom: 8px;
-    margin-right:3px;
 }
 
 .tr-regi-form h4 span {
     color: #82af27;
     font-size: 42px;
-    font-weight: 600;
-}
-.tr-regi-form h3 span {
-    color: #82af27;
-    font-size: 24px;
     font-weight: 600;
 }
 
@@ -6009,9 +6004,8 @@ textarea {
 }
 
 .tr-regi-form p {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 0px;
-    margin-top: 20px;
 }
 
 .tr-regi-form p a {}
@@ -6116,9 +6110,8 @@ textarea {
 .v2-search-form label {
     color: #727070;
     font-weight: 600;
-    top: 1px;
+    top: 14px;
     font-size: 14px;
-
 }
 
 .v2-search-form input {
@@ -6232,7 +6225,6 @@ textarea {
 
 .ui-datepicker .ui-datepicker-prev {
     left: 2px;
-    
 }
 
 .ui-datepicker .ui-datepicker-next {
@@ -6242,9 +6234,7 @@ textarea {
 .ui-datepicker .ui-datepicker-prev-hover {
     left: 1px;
 }
-.ui-state-hover{
-    background-color: #002e63;
-}
+
 .ui-datepicker .ui-datepicker-next-hover {
     right: 1px;
 }
@@ -6257,7 +6247,6 @@ textarea {
     margin-left: -8px;
     top: 50%;
     margin-top: -8px;
-    
 }
 
 .ui-datepicker .ui-datepicker-title {
@@ -6304,7 +6293,6 @@ textarea {
     text-decoration: none;
     width: 40px;
     height: 40px;
-   
 }
 
 .ui-datepicker .ui-datepicker-buttonpane {
@@ -6517,8 +6505,8 @@ a:visited.ui-button,
 .ui-button:hover,
 .ui-button:focus {
     font-weight: normal;
-    border: 0px solid #002e63;
-    background: #002e63;
+    border: 0px solid #dad55e;
+    background: #f6598e;
     color: #ffffff;
     border-radius: 27px;
 }
@@ -6816,7 +6804,7 @@ a.ui-button:active,
 .wed-logo a img {
     width: 250px;
     padding: 7px 0px;
-    height: 77px;
+    height: 60px;
 }
 
 .wed-menu {
@@ -6946,9 +6934,6 @@ a.ui-button:active,
 .main-menu {
     float: right;
     width: 80%;
-    height: 60px;
-    margin-top: 10px;
-    
 }
 
 .main-menu .active {
@@ -7920,7 +7905,6 @@ a.ui-button:active,
 .ed-mm-right {
     float: left;
     width: 50%;
-    height: 50px;
     box-sizing: border-box;
 }
 
@@ -8021,7 +8005,7 @@ a.ui-button:active,
     position: fixed;
     top: 0px;
     width: 100%;
-    height: 72px;
+    height: 55px;
     background: #fff;
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.32);
     z-index: 999;
@@ -9600,8 +9584,7 @@ input {
 }
 
 .active a {
-  
-
+    background-color: rgb(182, 174, 174) !important;
 }
 
 .carousel-inner.carousel-inner1 img {
@@ -9652,7 +9635,7 @@ input {
 }
 
 .Domestic-label label {
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 
@@ -10175,110 +10158,44 @@ input {
     background-color: white;
     padding: 20px;
     margin-top: 100px;
-    box-shadow: 3px 4px 21px #f5f5f5;
+    /* box-shadow: 3px 4px 21px #f5f5f5; */
+    /* box-shadow: 5px 10px white; */
+    box-shadow: 10px 10px 8px 10px white;
 }
 
 .posts img {
     min-height: 600px;
 }
-.browser-default {
-    margin-bottom: 10px;
-    
-    height: 4rem;
-    
-}
-.checkbox {
-    margin-top: -100px;
-    margin-right: 250px;
+
+.letter-khartosha img {
+    margin-right: 9%;
 }
 
-.nights-select{
-    margin-left: 110px;
-}
-.Khartosha {
-    padding: 40px 10px 30px;
-}
-.Khartosha h1 {
-    color: #253d52;
-    font-size: 44px;
-    font-weight: 600;
-    font-family: 'Quicksand', sans-serif;
-}
-.profile {
-    height: 500px;
-}
-.profile-table {
-    border: 1px solid rgb(221, 221, 221);
+.letter-khartosha {
+    position: relative;
 }
 
-.dates-tabel {
-    width: 300px;
-    border: 1px solid rgb(221, 221, 221);
-}
-.dates-gold {
-    width: 300px;
-    border: 1px solid rgb(221, 221, 221);
-    margin-left: 10px;
+.text-khartosha {
+    position: absolute;
+    display: table-caption;
+    top: 50%;
+    right: 50%;
+    transform: translateY(-50%);
 }
 
+.text-khartosha span {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+}
 
-
-  .example button:focus{
-    outline: none; 
-  }
-  .example button:hover{
-    background-color: #253d52;
-  }
-  .example button:active{
-    background-color: #1480b1; 
-  }
-
-  .example button {
-    float: left;
+.btn-book {
     background-color: #253d52;
     color: white;
-    border: none;
-    box-shadow: none;
-    font-size: 17px;
-    font-weight: 500;
-    font-weight: 600;
-    border-radius: 3px;
-    padding: 15px 35px;
-    margin: 26px 5px 0 5px;
-    cursor: pointer;
-}
-.inclusion {
-    margin-left: 30px;
-}
-.table-overview {
-   border:1px solid #ddd ;
-}
-.table-overview th ,  .table-overview td{
-    border-right: 1px solid #ddd;
-    border-left: 1px solid #ddd;
-    border-top: none !important;
-
-}
-.continue-btn button {
-    background-color:#82af27;
-    color: #fff;
-    padding: 10px 25px 10px 25px;
-    border: none;
+    padding-bottom: 37px;
+    font-weight: 700;
 }
 
-.done-btn button {    
-    height: 45px;
-    line-height: 45px;
-    background: #82af27;
-    outline: none;
-    font-size: 16px;
-    display: block !important;
-    color: #fff;
-    font-weight: 600;
-    font-family: 'Quicksand', sans-serif;
-    text-transform: uppercase;
-    margin: auto;
-    width: 104px;
-    border: none;
-    margin-top: 20px;
+.content {
+    display: inline-block;
 }

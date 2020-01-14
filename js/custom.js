@@ -208,3 +208,72 @@ function myFunction() {
 //     }
 
 // });
+
+$(function () {
+    $("#chkPassport").click(function () {
+        if ($(this).is(":checked")) {
+            $("#dvPassport").show();
+            $("#AddPassport").hide();
+        } else {
+            $("#dvPassport").hide();
+            $("#AddPassport").show();
+        }
+    });
+});
+$(function () {
+    $("#chkPassport1").click(function () {
+        if ($(this).is(":checked")) {
+            $("#dvPassport1").show();
+            $("#AddPassport1").hide();
+        } else {
+            $("#dvPassport1").hide();
+            $("#AddPassport1").show();
+        }
+    });
+});
+
+
+$(function() {
+    var dates = ["01/01/2020","08/01/2020","15/01/2020","22/01/2020","29/01/2020","05/02/2020","12/02/2020","19/02/2020","26/02/2020"];              
+      var options = {
+        dateFormat : 'dd/mm/yy',
+        beforeShowDay: function(date) {
+         formattedDate = $.datepicker.formatDate('dd/mm/yy', date);   
+         if(dates.indexOf(formattedDate) === -1){
+            return [false];
+         }
+         else{
+            return [true];
+         }
+        }
+      };
+    $( "#datepicker" ).datepicker( options );
+  });
+
+
+  $("#nrGames").change(function() {
+    var value = +$(this).val();
+    var nr = 0;
+    var elem = $('#games').empty();
+    while (nr < value) {
+      elem.append($('<select class="browser-default"> <option value="" disabled selected>Room Type</option><option value="Single">Single</option><option value="double">Double</option><option value="Triple">Triple</option> </select>',{name : "Team1Player"+nr}));
+      nr++;
+    }
+  });
+
+    $( "#b1" ).click(function() {
+        Swal.fire(
+            'Download Our Mobile Application And Get 10% Discount',
+            'Do You Want To install Our Application',
+            'question'
+        )
+    });
+
+    $( "#b2" ).click(function() {
+        Swal.fire(
+            'Your work has been saved'
+        )
+    });
+
+
+
