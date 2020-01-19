@@ -8,7 +8,11 @@
  * Email:      rn53themes@gmail.com
  * Website:    http://www.rn53themes.net 
  /*-------------------------------------------------------*/
+
+
 /*-------------------------------------------------------*/
+
+
 /* When the browser is between 0px and 1330px wide,below css will be applied.
 /*-------------------------------------------------------*/
 
@@ -26,29 +30,40 @@
     }
 }
 
+
 /*-------------------------------------------------------*/
+
+
 /* When the browser is between 0px and 1100px wide,below css will be applied.
 /*-------------------------------------------------------*/
 
 @media screen and (max-width: 1100px) {
-.book-tab-inn {
-    width: 100%;
-}	
+    .book-tab-inn {
+        width: 100%;
+    }
 }
 
+
 /*-------------------------------------------------------*/
+
+
 /* When the browser is between 0px and 992px wide,below css will be applied.
 /*-------------------------------------------------------*/
 
 @media screen and (max-width: 992px) {
-	.top-logo,.ed-top{display:none;}
-	.ed-mob-menu{display:block;}
-	.offer-r {
-		display: none;
-	}	
-	.cus-book-form {
-		width: 90%;
-	}	
+    .top-logo,
+    .ed-top {
+        display: none;
+    }
+    .ed-mob-menu {
+        display: block;
+    }
+    .offer-r {
+        display: none;
+    }
+    .cus-book-form {
+        width: 90%;
+    }
     .head_left img {
         margin: 0 auto;
         padding: 8px 0px;
@@ -126,7 +141,7 @@
         margin-top: 0px;
     }
     .inner_banner p {
-        padding-top: 30px;
+        padding-top: 54px;
     }
     .inner_banner ul li {
         padding-left: 0px;
@@ -239,13 +254,24 @@
         margin-top: 50px;
     }
 }
+
+
 /*-------------------------------------------------------*/
+
+
 /* When the browser is between 0px and 767px wide,below css will be applied.
 /*-------------------------------------------------------*/
 
 @media screen and (max-width: 767px) {
     .tb-space {
         padding: 75px 0px;
+    }
+    .tour_head h2 {
+        width: 100% !important;
+        font-size: 28px !important;
+    }
+    .example button {
+        width: 100%;
     }
     .pad-bot-redu {
         padding-bottom: 45px !important;
@@ -256,7 +282,8 @@
     .pad-bot-redu-5 {
         padding-bottom: 25px !important;
     }
-    .head_right ul {} .head_left img {
+    .head_right ul {}
+    .head_left img {
         display: table;
         margin: 0 auto;
         margin-bottom: 15px;
@@ -272,7 +299,23 @@
         margin-bottom: 5px;
     }
     .family img {
-        display: none;
+        width: 78% !important;
+        text-align: center;
+    }
+    .foot-mob-app h2 {
+        font-size: 30px !important;
+        margin-top: 67px !important;
+    }
+    .foot-mob-app h3 {
+        font-size: 30px !important;
+        margin-top: 67px !important;
+    }
+    .foot-mob-app ul li {
+        font-size: 15px;
+    }
+    .foot-mob-app img {
+        width: 40%;
+        margin-left: 10px;
     }
     .mob_logo {
         display: block;
@@ -292,7 +335,7 @@
         background-color: #000000;
         border-radius: 0px;
     }
-    .navbar-nav > li > a {
+    .navbar-nav>li>a {
         line-height: 15px;
         border-radius: 1px;
         border-bottom: 1px solid #1a1a1a;
@@ -315,7 +358,8 @@
         margin: 0 auto;
         padding: 8px 0px;
     }
-    .head_right ul {} .head_left img {
+    .head_right ul {}
+    .head_left img {
         display: table;
         margin: 0 auto;
         padding: 8px 0px;
@@ -328,24 +372,20 @@
         float: left;
     }
     .banner_book_1 ul li {
-        width: 48%;
+        width: 100% !important;
     }
     .dl3 {
-        display: none !important;
+        display: block !important;
     }
-    .dl2 {
-        display: none !important;
-    }
-    .tour_star {
-        display: block;
-    }
+    .dl2 {}
+    .tour_star {}
     .event-res {
         display: none;
     }
     .p2 h3 span {
         display: block;
     }
-    .dropdown-menu > li > a {
+    .dropdown-menu>li>a {
         border-bottom: 1px solid #1a1a1a;
     }
     .book_poly h3 {
@@ -380,7 +420,8 @@
     .testi-2 {
         margin-top: 35px;
     }
-    .testi-2 h3 {} .footer1 {
+    .testi-2 h3 {}
+    .footer1 {
         padding-bottom: 50px !important;
     }
     .cbb2-ab-p1-right {
@@ -467,7 +508,6 @@
     }
     .bg-none {
         /* background: inherit; */
-        
         padding: 30px 15px;
         background: url(../images/list-p-bg.jpg) no-repeat center center;
         background-size: cover;
@@ -545,9 +585,10 @@
         padding: 0px 10px;
     }
     .tourz-hom-ser ul li a {
-        width: 65px;
+        max-width: 100%;
         height: 65px;
         padding: 10px 2px 10px 2px;
+        flex-direction: column;
     }
     .tourz-hom-ser ul li a img {
         width: 24px;
@@ -569,8 +610,19 @@
         width: 100%;
         margin-top: 20px;
     }
+    .tourz-hom-ser ul li a {
+        /* max-width: 90%;
+        flex-direction: column; */
+    }
+    .contact__form h4 {
+        font-size: 12px;
+    }
 }
+
+
 /*-------------------------------------------------------*/
+
+
 /* When the browser is 767px or wider,below css will be applied.
 /*-------------------------------------------------------*/
 
@@ -602,8 +654,15 @@
     .home_consul a {
         display: initial;
     }
+    .tourz-search-1 h1 span {
+        font-size: 30px !important;
+    }
 }
+
+
 /*-------------------------------------------------------*/
+
+
 /* When the browser is between 0px and 481px wide,below css will be applied.
 /*-------------------------------------------------------*/
 
@@ -614,8 +673,19 @@
     .arrange ul li {
         width: 98% !important;
     }
+    .package-table {
+        width: 400px;
+        margin-left: -50px;
+    }
+    .package-table h5 {
+        font-size: 15px;
+    }
     .banner_book_1 ul li {
-        width: 100%;
+        width: 100% !important;
+        display: inline !important;
+    }
+    .carousel-indicators-1 {
+        overflow-x: hidden;
     }
     .dl1 {
         display: none !important;
@@ -626,12 +696,29 @@
     .events table tr td:nth-child(2) {
         width: 180px;
     }
+    .inner_banner p {
+        font-size: 12px !important;
+    }
     .events table tr th {
         font-size: 16px;
     }
     #myTable th,
     #myTable td {
         padding: 0px 5px;
+    }
+    .map iframe {
+        display: none;
+    }
+    .tr-regi-form textarea {
+        width: 100%;
+        height: 80px;
+    }
+    .contact-btn {
+        width: 100px;
+    }
+    .contact-input {
+        width: 300px;
+        margin-left: 28px;
     }
     .to-con-2 {
         font-size: 20px;
@@ -647,9 +734,18 @@
         margin-bottom: 10px;
     }
     .tourz-hom-ser ul li a {
-        width: 100%;
-        height: 100%;
+        max-width: 100% !important;
+        padding: 10px 2px 10px 2px;
+        flex-direction: column !important;
+        min-height: 100px;
     }
+    .tourz-hom-ser ul li a p {
+        font-size: 10px;
+    }
+    .spe-title h1 {
+        font-size: 15px;
+    }
+    .spe-title p {}
     .db-pay-amount {
         display: none;
     }
@@ -666,8 +762,37 @@
         padding: 30px 25px 30px 25px;
         margin-top: 100px;
     }
+    .bedding img {
+        display: none;
+    }
+    .book-tab-tit col s6 {
+        text-align: center;
+    }
+    .tourz-search-1 h1 span {
+        font-size: 20px !important;
+    }
+    .tourz-search-1 p {
+        font-size: 11px !important;
+        font-weight: 100 !important;
+    }
+    .Khartosha h1 {
+        font-size: 30px !important;
+    }
+    .spe-title h2 {
+        font-size: 30px !important;
+    }
+    .spe-title span {
+        font-size: 30px !important;
+    }
+    .spe-title p {
+        font-size: 13px !important;
+    }
 }
+
+
 /*-------------------------------------------------------*/
+
+
 /* When the browser is between 0px and 1030px wide,below css will be applied.
 /*-------------------------------------------------------*/
 
@@ -697,18 +822,22 @@
         margin: 0 auto;
         display: table;
     }
-    .carousel-inner > .item > img {
+    .carousel-inner>.item>img {
         display: none;
     }
     .carousel-caption {
         width: 100%;
         padding-bottom: 7%;
     }
-    .carousel-inner1 > .item > img {
+    .carousel-inner1>.item>img {
         display: block;
     }
 }
+
+
 /*-------------------------------------------------------*/
+
+
 /* When the browser is 992px or wider,below css will be applied.
 /*-------------------------------------------------------*/
 
@@ -737,7 +866,11 @@
         display: initial;
     }
 }
+
+
 /*-------------------------------------------------------*/
+
+
 /* When the browser is between 767px and 992px wide,below css will be applied.
 /*-------------------------------------------------------*/
 
@@ -747,7 +880,7 @@
         margin: 0 auto;
         display: table;
     }
-    .nav > li > a {
+    .nav>li>a {
         font-size: 14px;
         padding: 10px 7px;
     }
@@ -757,21 +890,31 @@
     .banner_book_1 ul li {
         width: 32%;
     }
-    .dl1 {} .dl2 {} .dl3 {
+    .dl1 {}
+    .dl2 {}
+    .dl3 {
         display: none !important;
     }
     .dl4 {}
 }
+
+
 /*-------------------------------------------------------*/
+
+
 /* When the browser is 992px or wider,below css will be applied.
 /*-------------------------------------------------------*/
 
 @media screen and (min-width: 992px) {
-    .nav > li > a {
+    .nav>li>a {
         font-size: 15px;
     }
 }
+
+
 /*-------------------------------------------------------*/
+
+
 /* When the browser is between 0px and 1130px wide,below css will be applied.
 /*-------------------------------------------------------*/
 
@@ -780,7 +923,11 @@
         margin-bottom: 5px;
     }
 }
+
+
 /*-------------------------------------------------------*/
+
+
 /* When the browser is between 0px and 1180px wide,below css will be applied.
 /*-------------------------------------------------------*/
 

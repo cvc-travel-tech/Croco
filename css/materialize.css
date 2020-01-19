@@ -2292,6 +2292,14 @@ ul.staggered-list li {
         text-align: center;
     }
 }
+@media (max-width: 480px) {
+    .tourz-hom-ser ul li a 
+    {
+     
+        max-width: 50% !important;
+        flex-direction: column !important;
+    }
+}
 .page-footer {
     padding-top: 20px;
     background-color: #ee6e73;
@@ -3694,16 +3702,26 @@ html {} @media only screen and (min-width: 0) {
     html {
         font-size: 14px;
     }
+    .ed-mob-menu {
+
+        display: none;
+        }
 }
 @media only screen and (min-width: 992px) {
     html {
         font-size: 14.5px;
+        
     }
+    
 }
 @media only screen and (min-width: 1200px) {
     html {
         font-size: 15px;
     }
+    .ed-mob-menu {
+
+        display: none;
+        }
 }
 .light,
 .page-footer .footer-copyright {

@@ -1737,10 +1737,14 @@ section.c3 {
 /*-------------------------------------------------------*/
 
 .footer {
-    background: #000000;
+    background: #01041d !important;
     position: relative;
     overflow: hidden;
     padding-bottom: 85px;
+}
+
+.footer .container .foot-sec2 {
+    background: #01041d !important;
 }
 
 .footer h4 {
@@ -5989,7 +5993,7 @@ textarea {
     margin-top: 0px;
     font-size: 42px;
     margin-bottom: 8px;
-    margin-right:3px;
+    margin-right: 3px;
 }
 
 .tr-regi-form h4 span {
@@ -5997,6 +6001,7 @@ textarea {
     font-size: 42px;
     font-weight: 600;
 }
+
 .tr-regi-form h3 span {
     color: #82af27;
     font-size: 24px;
@@ -6118,7 +6123,6 @@ textarea {
     font-weight: 600;
     top: 1px;
     font-size: 14px;
-
 }
 
 .v2-search-form input {
@@ -6232,7 +6236,6 @@ textarea {
 
 .ui-datepicker .ui-datepicker-prev {
     left: 2px;
-    
 }
 
 .ui-datepicker .ui-datepicker-next {
@@ -6242,9 +6245,11 @@ textarea {
 .ui-datepicker .ui-datepicker-prev-hover {
     left: 1px;
 }
-.ui-state-hover{
+
+.ui-state-hover {
     background-color: #002e63;
 }
+
 .ui-datepicker .ui-datepicker-next-hover {
     right: 1px;
 }
@@ -6257,7 +6262,6 @@ textarea {
     margin-left: -8px;
     top: 50%;
     margin-top: -8px;
-    
 }
 
 .ui-datepicker .ui-datepicker-title {
@@ -6304,7 +6308,6 @@ textarea {
     text-decoration: none;
     width: 40px;
     height: 40px;
-   
 }
 
 .ui-datepicker .ui-datepicker-buttonpane {
@@ -6948,7 +6951,6 @@ a.ui-button:active,
     width: 80%;
     height: 60px;
     margin-top: 10px;
-    
 }
 
 .main-menu .active {
@@ -9599,10 +9601,7 @@ input {
     background-color: #8e8e8e;
 }
 
-.active a {
-  
-
-}
+.active a {}
 
 .carousel-inner.carousel-inner1 img {
     height: 400px;
@@ -10181,32 +10180,36 @@ input {
 .posts img {
     min-height: 600px;
 }
+
 .browser-default {
     margin-bottom: 10px;
-    
     height: 4rem;
-    
 }
+
 .checkbox {
     margin-top: -100px;
     margin-right: 250px;
 }
 
-.nights-select{
+.nights-select {
     margin-left: 110px;
 }
+
 .Khartosha {
     padding: 40px 10px 30px;
 }
+
 .Khartosha h1 {
     color: #253d52;
     font-size: 44px;
     font-weight: 600;
     font-family: 'Quicksand', sans-serif;
 }
+
 .profile {
     height: 500px;
 }
+
 .profile-table {
     border: 1px solid rgb(221, 221, 221);
 }
@@ -10215,25 +10218,26 @@ input {
     width: 300px;
     border: 1px solid rgb(221, 221, 221);
 }
+
 .dates-gold {
     width: 300px;
     border: 1px solid rgb(221, 221, 221);
     margin-left: 10px;
 }
 
+.example button:focus {
+    outline: none;
+}
 
-
-  .example button:focus{
-    outline: none; 
-  }
-  .example button:hover{
+.example button:hover {
     background-color: #253d52;
-  }
-  .example button:active{
-    background-color: #1480b1; 
-  }
+}
 
-  .example button {
+.example button:active {
+    background-color: #1480b1;
+}
+
+.example button {
     float: left;
     background-color: #253d52;
     color: white;
@@ -10247,26 +10251,30 @@ input {
     margin: 26px 5px 0 5px;
     cursor: pointer;
 }
+
 .inclusion {
     margin-left: 30px;
 }
+
 .table-overview {
-   border:1px solid #ddd ;
+    border: 1px solid #ddd;
 }
-.table-overview th ,  .table-overview td{
+
+.table-overview th,
+.table-overview td {
     border-right: 1px solid #ddd;
     border-left: 1px solid #ddd;
     border-top: none !important;
-
 }
+
 .continue-btn button {
-    background-color:#82af27;
+    background-color: #82af27;
     color: #fff;
     padding: 10px 25px 10px 25px;
     border: none;
 }
 
-.done-btn button {    
+.done-btn button {
     height: 45px;
     line-height: 45px;
     background: #82af27;
@@ -10281,4 +10289,20 @@ input {
     width: 104px;
     border: none;
     margin-top: 20px;
+}
+
+.travel-free h3 {
+    color: #777;
+}
+
+.travel-free p {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: #999;
+}
+
+.travel-free strong {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #888;
 }
